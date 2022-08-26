@@ -10,8 +10,8 @@
       "askForPassword": true,
       "driver": "MySQL",
       "name": "localhost",
-      "database": "sys",
-      "username": "edward"
+      "database": "CRUDDataBase",
+      "username": "root"
     }
   ]
 }
