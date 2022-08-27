@@ -85,7 +85,9 @@ function App() {
                   setNewReview(e.target.value);
                 }}
               />
-              <button onClick={updateReview(val.movieName)}>Update</button>
+              <button onClick={() => updateReview(val.movieName)}>
+                Update
+              </button>
             </div>
           );
         })}
