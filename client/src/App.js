@@ -17,9 +17,15 @@ function App() {
     Axios.post("http://localhost:3001/api/insert", {
       movieName: movieName,
       movieReview: review,
-    }).then(() => {
-      alert("successful insert");
     });
+
+    setMovieList([
+      ...movieReviewList,
+      {
+        movieName: movieName,
+        movieReview: review,
+      },
+    ]);
   };
 
   return (
